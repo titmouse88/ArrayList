@@ -150,7 +150,7 @@ namespace ArrayList
 
             public void AddLast(int value) //добавление в конец списка
             {
-                int oldLenght = _currentLength;
+            int oldLenght = _currentLength;
                 _currentLength++;
 
                 _array[oldLenght] = value;
